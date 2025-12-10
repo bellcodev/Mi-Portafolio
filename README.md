@@ -1,6 +1,6 @@
 # Mi Portafolio
 
-<img alt="imagen" src="https://i.imgur.com/pyGQzNe.png">
+<img width="1331" height="629" alt="image" src="https://github.com/user-attachments/assets/e393d80f-b073-4773-8112-55f9bc4b53df" />
 
 Soy desarrollador backend con enfoque en **Python, FastAPI y SQL**.  
 Me interesa la automatización, la reproducibilidad y crear soluciones claras y mantenibles.  
