@@ -1,155 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ronald</title>
-    <meta name="title" content="Portafolio de Ronald" />
-    <meta name="description" content="Desarrollador especializado en Python, SQL, FastAPI y automatización backend." />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ronald</title>
+        <meta name="title" content="Portafolio de Ronald" />
+        <meta name="description" content="Desarrollador especializado en Python, SQL, FastAPI y automatización backend." />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/bellcodev" />
-    <meta property="og:title" content="Ronald" />
-    <meta property="og:description" content="Desarrollador especializado en Python, SQL, FastAPI y automatización backend." />
-    <meta property="og:image" content="assets/profile_img.jpeg" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://github.com/bellcodev" />
+        <meta property="og:title" content="Ronald" />
+        <meta property="og:description" content="Desarrollador especializado en Python, SQL, FastAPI y automatización backend." />
+        <meta property="og:image" content="assets/profile_img.jpeg" />
 
-    <!-- Favicon -->
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+        <!-- Icon -->
+        <link rel="icon" href="assets/portfolio-icon.jpg">
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/utilities.css" />
-  </head>
-  <body>
-    <header id="hero">
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="container">
-          <!-- Logo -->
-          <h1 id="logo">
-            <a href="https://github.com/bellcodev">
-              <img src="./assets/profile_img.jpeg" alt="Logo de Ronald" />
-            </a>
-          </h1>
-          <!-- Navbar links -->
-          <ul class="nav-menu">
-            <li><a class="nav-link" href="#">SOBRE MI</a></li>
-            <li><a class="nav-link" href="#projects">PROYECTOS</a></li>
-            <li><a class="nav-link" href="#footer">CONTACTO</a></li>
-            <!-- Toggle switch -->
-            <div class="theme-switch">
-              <input type="checkbox" id="switch" />
-              <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
-              </label>
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/utilities.css" />
+    </head>
+    <body>
+        <header id="hero">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container">
+            <!-- Logo -->
+            <h1 id="logo">
+                <a href="https://github.com/bellcodev">
+                <img src="./assets/profile_img.jpeg" alt="Logo de Ronald" />
+                </a>
+            </h1>
+            <!-- Navbar links -->
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="#">SOBRE MI</a></li>
+                <li><a class="nav-link" href="#tech-stack">TECNOLOGIAS</a></li>
+                <li><a class="nav-link" href="#projects">PROYECTOS</a></li>
+                <li><a class="nav-link" href="#footer">CONTACTO</a></li>
+                <!-- Toggle switch -->
+                <div class="theme-switch">
+                <input type="checkbox" id="switch" />
+                <label class="toggle-icons" for="switch">
+                    <img class="moon" src="assets/moon.svg" />
+                    <img class="sun" src="assets/sun.svg" />
+                </label>
+                </div>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </div>
-      </nav>
+            </div>
+        </nav>
 
-      <section class="header-container">
-        <img class="profile-image" src="assets/profile_img.jpeg" alt="Foto de Ronald" />
-        <h1>¡Hola! Soy Ronald</h1>
+        <section class="header-container">
+            <img class="profile-image" src="assets/profile_img.jpeg" alt="Foto de Ronald" />
+            <h1>¡Hola! Soy Ronald</h1>
+            <div class="content-text">
+            <h2>Desarrollador Backend</h2>
+            <p>
+                Desarrollador especializado en Python, SQL, FastAPI y automatización backend. Apasionado por la optimización de flujos de trabajo y el diseño de interfaces modernas y funcionales.
+            </p>
+            </div>
+            <a href="#contact" class="btn btn-secondary">Conéctate conmigo</a>
+        </section>
+        </header>
+
+        <section id="tech-stack" class="tech-container container">
+            <div class="division"></div>
+            <div class="content-text">
+                <h2>Tecnologías</h2>
+                <p>Las Tecnologias que actualmente domino</p>
+                <div class="tech-container">
+                    <img class="tech" src="assets/html.png" alt="Logo HTML">
+                    <img class="tech" src="assets/css.png" alt="Logo CSS">
+                    <img class="tech" src="assets/js.png" alt="Logo JavaScript">
+                    <img class="tech" src="assets/python.png" alt="Logo Python">
+                    <img class="tech" src="assets/sql.png" alt="SQL">
+                    <img class="tech" src="assets/github.png" alt="Logo GitHub">
+                    <img class="tech" src="assets/git.png" alt="Logo Git">
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="projects" class="project-container container">
+        <div class="division"></div>
         <div class="content-text">
-          <h2>Desarrollador Backend</h2>
-          <p>
-            Desarrollador especializado en Python, SQL, FastAPI y automatización backend. Apasionado por la optimización de flujos de trabajo y el diseño de interfaces modernas y funcionales.
-          </p>
-        </div>
-        <a href="#contact" class="btn btn-secondary">Conéctate conmigo</a>
-      </section>
-    </header>
-
-    <!-- Proyectos -->
-    <section id="projects" class="project-container container">
-      <div class="division"></div>
-      <div class="content-text">
-        <h2>Proyectos</h2>
-        <p>Explora algunos de mis proyectos destacados</p>
-      </div>
-
-      <div class="projects-grid">
-        <!-- Proyecto 1 -->
-        <div class="project-card">
-          <h3>SQL Browser</h3>
-          <p>
-            Herramienta ligera para explorar y gestionar bases de datos SQLite con
-            una interfaz moderna y funcional. Diseñada para optimizar flujos de trabajo
-            backend y facilitar la visualización de datos.
-          </p>
-          <a href="https://github.com/bellcodev/SQL-Browser" class="btn btn-secondary" target="_blank">
-            Ver en GitHub <i class="fas fa-arrow-right"></i>
-          </a>
+            <h2>Proyectos</h2>
+            <p>Explora algunos de mis proyectos destacados</p>
         </div>
 
-        <!-- Proyecto 2 -->
-        <div class="project-card">
-          <h3>GitHub Profile Analyzer</h3>
-          <p>
-            Aplicación que analiza perfiles de GitHub para extraer estadísticas,
-            repositorios más relevantes y métricas de actividad. Ideal para
-            desarrolladores que buscan mejorar su branding técnico.
-          </p>
-          <a href="https://github.com/bellcodev/Github-Profile-Analyzer" class="btn btn-secondary" target="_blank">
-            Ver en GitHub <i class="fas fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-
-      <a href="https://github.com/bellcodev" class="btn btn-secondary" target="_blank">
-        Más proyectos en GitHub <i class="fas fa-arrow-right"></i>
-      </a>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contact" class="contact-container container">
-      <div class="division"></div>
-      <div class="content-text">
-        <h2>Contacto</h2>
-        <p>¿Tienes una pregunta o quieres colaborar? ¡Escríbeme!</p>
-      </div>
-      <div class="contact-content">
-        <div class="contact-info">
-          <div class="contact-item">
-            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-            <div class="contact-details">
-              <h3>Email</h3>
-              <p>belloconcepcionr@gmail.com</p>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+            <h3>SQL Browser</h3>
+            <p>
+                Herramienta ligera para explorar y gestionar bases de datos SQLite con
+                una interfaz moderna y funcional. Diseñada para optimizar flujos de trabajo
+                backend y facilitar la visualización de datos.
+            </p>
+            <a href="https://github.com/bellcodev/SQL-Browser" class="btn btn-secondary" target="_blank">
+                Ver en GitHub <i class="fas fa-arrow-right"></i>
+            </a>
             </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon"><i class="fab fa-github"></i></div>
-            <div class="contact-details">
-              <h3>GitHub</h3>
-              <p>github.com/ronald</p>
+
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+            <h3>GitHub Profile Analyzer</h3>
+            <p>
+                Aplicación que analiza perfiles de GitHub para extraer estadísticas,
+                repositorios más relevantes y métricas de actividad. Ideal para
+                desarrolladores que buscan mejorar su branding técnico.
+            </p>
+            <a href="https://github.com/bellcodev/Github-Profile-Analyzer" class="btn btn-secondary" target="_blank">
+                Ver en GitHub <i class="fas fa-arrow-right"></i>
+            </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="container">
-        <a href="mailto:belloconcepcionr@gmail.com">belloconcepcionr@gmail.com</a>
-        <div class="social">
-            <a href="https://github.com/ronald" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
-            <a href="https://www.instagram.com/whoisronystar" target="_blank"><img src="./assets/instagram-icon.svg" alt="Instagram" /></a>
+            <div class="project-card">
+            <h3>Custom Console</h3>
+            <p>
+                Una herramineta para hacer tu consola mucho mas atractiva y
+                funcional que cualquiera otra, con una interfaz muy intuitiva
+                y con imagenes ASCII para decoracion.
+            </p>
+            <a href="https://github.com/bellcodev/Custom-Console" class="btn btn-secondary" target="_blank">
+                Ver en GitHub <i class="fas fa-arrow-right"></i>
+            </a>
+            </div>
         </div>
-        <p>Copyright &copy; Ronald <span id="datee"></span>, Todos los derechos reservados</p>
-      </div>
-    </footer>
 
-    <!-- Script principal -->
-    <script src="js/script.js"></script>
-  </body>
+        <a href="https://github.com/bellcodev" class="btn btn-secondary" target="_blank">
+            Más proyectos en GitHub <i class="fas fa-arrow-right"></i>
+        </a>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contact" class="contact-container container">
+        <div class="division"></div>
+        <div class="content-text">
+            <h2>Contacto</h2>
+            <p>¿Tienes una pregunta o quieres colaborar? ¡Escríbeme!</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-details">
+                <h3>Email</h3>
+                <p>belloconcepcionr@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon"><i class="fab fa-github"></i></div>
+                <div class="contact-details">
+                <h3>GitHub</h3>
+                <p>github.com/bellcodev</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+        <div class="container">
+            <a href="mailto:belloconcepcionr@gmail.com">belloconcepcionr@gmail.com</a>
+            <div class="social">
+                <a href="https://github.com/bellcodev" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+                <a href="https://www.instagram.com/whoisronystar" target="_blank"><img src="./assets/instagram-icon.svg" alt="Instagram" /></a>
+            </div>
+            <p>Copyright &copy; Ronald <span id="datee"></span>, Todos los derechos reservados</p>
+        </div>
+        </footer>
+
+        <!-- Script principal -->
+        <script src="js/script.js"></script>
+    </body>
 </html>
